@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const content = require('./days.json');
 
 // start the server
 const server = app.listen(8000, () => {
@@ -15,7 +16,8 @@ app.use(express.static(__dirname + '/public'));
 
   app.get('/', (req, res) => {
     res.render('index', {
-        title: 'Homepage'
+        title: 'Homepage',
+        days: content.days
     })
   });
 
