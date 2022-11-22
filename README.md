@@ -9,6 +9,7 @@ You can [access the tutorial here](https://freshman.tech/learn-node).
 [Live demo](https://freshman-node.herokuapp.com/)
 
 ## Instructions
+
 1. Clone repo
 2. Run `npm install`
 
@@ -16,4 +17,10 @@ You can [access the tutorial here](https://freshman.tech/learn-node).
 
 Need some help? Leave a comment on the tutorial — this repo is meant as a place to grab the starter files and isn't a support channel.
 
+TODO:
 
+- display links
+- add css
+- add a route for previous days
+- add a route for all
+- load only the current one
