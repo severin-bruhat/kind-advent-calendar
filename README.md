@@ -22,5 +22,3 @@ TODO:
 - display links
 - add css
 - add a route for previous days
-- add a route for all
-- load only the current one
