@@ -1,13 +1,13 @@
 extends default
 
 block content
-  div.container
-    h1 hello
-    each day in days
-      div.day
-        h2 #{day.date}
-        p #{day.content}
-        if day.links.length > 0
-            ul 
-                each link in day.links
-                    li= link
+    div.container
+        h1 hello
+        each day in days
+            div.day
+                h2 #{day.date}
+                p #{day.content}
+                if day.links.length > 0
+                    ul 
+                        each link in day.links
+                            li= link
