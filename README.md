@@ -1,24 +1,21 @@
-![Screenshot](https://res.cloudinary.com/turnup/image/upload/v1526512881/homepage-cards.png)
+# Kind Advent Calendar
 
-# First Node Website Tutorial Starter Files
+Why should we buy an advent calendar every year? What if, instead, we were doing something kind every day of December?
 
-These are the starter files to accompany the tutorial for building a simple Node.js website with Express and Pug.
+## Tech stack
 
-You can [access the tutorial here](https://freshman.tech/learn-node).
-
-[Live demo](https://freshman-node.herokuapp.com/)
+- NodeJS
+- Pug
+- Express
 
 ## Instructions
 
 1. Clone repo
 2. Run `npm install`
+3. Run `npm start`
 
-## Getting Help
+# TODO:
 
-Need some help? Leave a comment on the tutorial — this repo is meant as a place to grab the starter files and isn't a support channel.
-
-TODO:
-
-- display links
-- add css
-- add a route for previous days
+- add css (bootstrap?)
+- add Google Analytics
+- add Twitter share feature

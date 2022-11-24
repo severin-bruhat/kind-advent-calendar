@@ -25,14 +25,14 @@ app.get('/', (req, res) => {
     const current_day = content.days.find(item => item.date === day + "/" + month + "/" + year);
 
     res.render('index', {
-        title: 'Homepage',
+        title: 'Kind Advent Calendar',
         day: current_day
     })
 });
 
 app.get('/all', (req, res) => {
     res.render('all', {
-        title: 'All',
+        title: 'Kind Advent Calendar',
         days: content.days
     })
 });
