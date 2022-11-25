@@ -16,6 +16,5 @@ Why should we buy an advent calendar every year? What if, instead, we were doing
 
 # TODO:
 
-- add css (bootstrap?)
 - add Google Analytics
 - add Twitter share feature

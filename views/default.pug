@@ -5,6 +5,7 @@ html(class="h-100")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title #{title}
     link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css")
     link(rel='stylesheet', href='/css/style.css')
 
   body(class="d-flex flex-column h-100")
@@ -16,3 +17,6 @@ html(class="h-100")
     footer(class="footer mt-auto bg-dark text-white text-center py-2")
       div.container 
         span This year, just be kind!
+        span
+          a(target='_blank' class='text-decoration-none' href='https://twitter.com/intent/tweet?text=Be%20nice%20today%21%20https%3A%2F%2Fkind-advent-calendar.com%2F') &nbsp;&nbsp;Share on Twitter &nbsp;
+            i(class='bi bi-twitter')
