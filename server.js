@@ -20,7 +20,6 @@ app.get('/', (req, res) => {
     let day = ("0" + date_ob.getDate()).slice(-2);
     let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
     let year = date_ob.getFullYear();
-    console.log(day + "/" + month + "/" + year);
 
     const current_day = content.days.find(item => item.date === day + "/" + month + "/" + year);
 

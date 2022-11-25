@@ -1,13 +1,12 @@
 extends default
 
 block content
-    div.container
-            div.day
-                if day
-                    h2 #{day.date}
-                    p #{day.content}
-                    if day.links.length > 0
-                        ul 
-                            each link in day.links
-                                li
-                                    a(target='_blank' href=`${link.target}`) #{link.name}
+    div.px-4
+        if day
+            h2 #{day.date}
+            p #{day.content}
+            if day.links.length > 0
+                ul 
+                    each link in day.links
+                        li
+                            a(target='_blank' href=`${link.target}`) #{link.name}
