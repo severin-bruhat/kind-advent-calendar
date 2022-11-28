@@ -37,7 +37,16 @@
     {
       "date": "28/11/2022",
       "content": "Be patient... Come back on the 1st of December!",
-      "links": []
+      "links": [
+        {
+          "name": "Google",
+          "target": "https://google.co.uk"
+        },
+        {
+          "name": "Test",
+          "target": "https://test.co.uk"
+        }
+      ]
     },
     {
       "date": "29/11/2022",

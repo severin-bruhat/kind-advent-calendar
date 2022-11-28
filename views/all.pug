@@ -1,13 +1,13 @@
 extends default
 
 block content
-    div.container
+    div.px-4
         if days.length > 0
-            each day in days
-                div.day
-                    h2 #{day.date}
-                    p #{day.content}
-                    if day.links.length > 0
-                        ul 
-                            each link in day.links
-                                li= link
+                each day in days
+                    div(class='card mb-3')
+                        div(class='card-body')
+                            h5(class='card-title') #{day.date}
+                            p(class='card-text') #{day.content}
+                            if day.links.length > 0
+                                each link in day.links
+                                    a(target='_blank' class='card-link' href=`${link.target}`) #{link.name}
