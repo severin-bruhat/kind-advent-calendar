@@ -10,3 +10,7 @@ block content
                     if day.links.length > 0
                         each link in day.links
                             a(target='_blank' class='card-link' href=`${link.target}`) #{link.name}
+        else 
+            div(class='card')
+                div(class='card-body')
+                    p Come back next year!

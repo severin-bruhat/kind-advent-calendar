@@ -16,4 +16,5 @@ Why should we buy an advent calendar every year? What if, instead, we were doing
 
 # TODO:
 
-- add proper content
+- add images?
+- tweak the font
